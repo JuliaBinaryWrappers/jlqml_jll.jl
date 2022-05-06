@@ -2,15 +2,15 @@
 export libjlqml
 
 using libcxxwrap_julia_jll
-using Qt5Declarative_jll
-using Qt5Svg_jll
+using Qt6Declarative_jll
+using Qt6Svg_jll
 JLLWrappers.@generate_wrapper_header("jlqml")
-JLLWrappers.@declare_library_product(libjlqml, "@rpath/libjlqml.dylib")
+JLLWrappers.@declare_library_product(libjlqml, "@rpath/libjlqml.0.4.0.dylib")
 function __init__()
-    JLLWrappers.@generate_init_header(libcxxwrap_julia_jll, Qt5Declarative_jll, Qt5Svg_jll)
+    JLLWrappers.@generate_init_header(libcxxwrap_julia_jll, Qt6Declarative_jll, Qt6Svg_jll)
     JLLWrappers.@init_library_product(
         libjlqml,
-        "lib/libjlqml.dylib",
+        "lib/libjlqml.0.4.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 

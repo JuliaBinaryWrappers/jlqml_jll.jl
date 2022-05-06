@@ -1,14 +1,14 @@
 name = "jlqml_jll"
 uuid = "6b5019fb-a83d-5b4e-a9f7-678a36c28df7"
-version = "0.3.0+1"
+version = "0.4.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
-Qt5Declarative_jll = "c6373c32-5b88-5913-90f5-31d7686b42da"
+Qt6Declarative_jll = "629bc702-f1f5-5709-abd5-49b8460ea067"
 libcxxwrap_julia_jll = "3eaa8342-bff7-56a5-9981-c04077f7cee7"
-Qt5Svg_jll = "3af4ccab-a251-578e-a514-ea85a0ba79ee"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+Qt6Svg_jll = "6de9746b-f93d-5813-b365-ba18ad4a9cf3"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [compat]
