@@ -5,7 +5,7 @@ using libcxxwrap_julia_jll
 using Qt6Declarative_jll
 using Qt6Svg_jll
 JLLWrappers.@generate_wrapper_header("jlqml")
-JLLWrappers.@declare_library_product(libjlqml, "libjlqml.so.0.4.0")
+JLLWrappers.@declare_library_product(libjlqml, "libjlqml.so.0.5.1")
 function __init__()
     JLLWrappers.@generate_init_header(libcxxwrap_julia_jll, Qt6Declarative_jll, Qt6Svg_jll)
     JLLWrappers.@init_library_product(
