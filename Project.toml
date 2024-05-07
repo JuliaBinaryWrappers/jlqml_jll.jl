@@ -1,6 +1,6 @@
 name = "jlqml_jll"
 uuid = "6b5019fb-a83d-5b4e-a9f7-678a36c28df7"
-version = "0.6.0+0"
+version = "0.6.1+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
